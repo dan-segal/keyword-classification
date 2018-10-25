@@ -4,7 +4,7 @@ This repository contains sample Python scripts for performing concept identifica
 
 Before using these scripts, install Watson Developer Cloud: *pip install --upgrade watson-developer-cloud*
 
-## Concept identification ##
+## Identifying concepts ##
 
 This script *(nlu_concept-extraction_sample.py)* extracts Concepts from a list of HTML pages using Watson Natural Language Understanding (NLU).
 
@@ -15,3 +15,7 @@ The output is in JSON.
 The script requires a Watson NLU account.
 
 For full NLU documentation, including instructions for obtaining a Watson NLU account, see *https://console.bluemix.net/docs/services/natural-language-understanding/getting-started.html#getting-started-tutorial*.
+
+## Training the classifier ##
+
+## Classifying text ##

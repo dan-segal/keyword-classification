@@ -11,4 +11,4 @@ The script requires a Watson NLU account.
 
 The input file should be in CSV with a minimum of two columns.  The column headers should include URL (for the URL of the page) and Keyword (for the search keyword that is associated with a URL).
 
-# For full NLU documentation, see https://console.bluemix.net/docs/services/natural-language-understanding/getting-started.html#getting-started-tutorial.
+_For full NLU documentation, see https://console.bluemix.net/docs/services/natural-language-understanding/getting-started.html#getting-started-tutorial.

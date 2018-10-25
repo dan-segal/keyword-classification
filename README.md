@@ -32,8 +32,35 @@ This script *nlcClassifierStatus.py* returns the status of a text classifer in W
 
 This script requires a Watson NLC account.
 
-It also requires the classsifer ID.   The classifier ID is assigned during the training step.
+It also requires the classsifer ID.   The classifier ID is assigned during the training step. If the classifier ID is not known, it can be found using the script *nlcListClassifiers.py* below.
 
 For full NLC documentation, including instructions for obtaining a Watson NLU account, see:  https://console.bluemix.net/docs/services/natural-language-classifier/getting-started.html#natural-language-classifier.
 
 ## Classifying text ##
+
+The script *nlcClassify.py* reads a flat list of keywords from the CSV file, passes the keywords to Watson Natural Language Classifier (NLC), and writes the NLC output to JSON.
+
+#The column in the CSV file that contains the keywords must have "Keyword" as the header.
+
+#Before running the script, update:
+
+- The version of the Watson NLC classifier
+- The name or the CSV input file - MUST BE ENCODED IN UTF-8 FORMAT
+- The name of the JSON output file
+
+This script requires a Watson NLC account.
+
+It also requires the classsifer ID.   The classifier ID is assigned during the training step.  If the classifier ID is not known, it can be found using the script *nlcListClassifiers.py* below.
+
+For full NLC documentation, including instructions for obtaining a Watson NLU account, see:  https://console.bluemix.net/docs/services/natural-language-classifier/getting-started.html#natural-language-classifier.
+
+## List classifiers ##
+
+The script *nlcListClassifiers.py* returns a list of text classifers that are associated with an account in Watson Natural Language Classifier (NLC).
+
+The script requires a Watson NLC account.
+
+For full NLC documentation, including instructions for obtaining a Watson NLU account, see:  https://console.bluemix.net/docs/services/natural-language-classifier/getting-started.html#natural-language-classifier.
+
+## Deleting a classifier ##
+

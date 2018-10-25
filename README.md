@@ -40,9 +40,9 @@ For full NLC documentation, including instructions for obtaining a Watson NLU ac
 
 The script *nlcClassify.py* reads a flat list of keywords from the CSV file, passes the keywords to Watson Natural Language Classifier (NLC), and writes the NLC output to JSON.
 
-#The column in the CSV file that contains the keywords must have "Keyword" as the header.
+The column in the CSV file that contains the keywords must have "Keyword" as the header.
 
-#Before running the script, update:
+Before running the script, update:
 
 - The version of the Watson NLC classifier
 - The name or the CSV input file - MUST BE ENCODED IN UTF-8 FORMAT
@@ -58,9 +58,17 @@ For full NLC documentation, including instructions for obtaining a Watson NLU ac
 
 The script *nlcListClassifiers.py* returns a list of text classifers that are associated with an account in Watson Natural Language Classifier (NLC).
 
-The script requires a Watson NLC account.
+This script requires a Watson NLC account.
 
 For full NLC documentation, including instructions for obtaining a Watson NLU account, see:  https://console.bluemix.net/docs/services/natural-language-classifier/getting-started.html#natural-language-classifier.
 
 ## Deleting a classifier ##
+
+The script *nlcDeleteClassifier.py* deletes a text classifer that is associated with an account in Watson Natural Language Classifier (NLC).
+
+This script requires a Watson NLC account.
+
+It also requires the classsifer ID.   The classifier ID is assigned during the training step.
+
+For full NLC documentation, including instructions for obtaining a Watson NLU account, see:  https://console.bluemix.net/docs/services/natural-language-classifier/getting-started.html#natural-language-classifier.
 

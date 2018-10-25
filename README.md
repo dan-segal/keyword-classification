@@ -54,7 +54,7 @@ It also requires the classsifer ID.   The classifier ID is assigned during the t
 
 For full NLC documentation, including instructions for obtaining a Watson NLU account, see:  https://console.bluemix.net/docs/services/natural-language-classifier/getting-started.html#natural-language-classifier.
 
-## List classifiers ##
+## Listing classifiers ##
 
 The script *nlcListClassifiers.py* returns a list of text classifers that are associated with an account in Watson Natural Language Classifier (NLC).
 

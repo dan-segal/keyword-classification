@@ -12,7 +12,7 @@ The input file should be in CSV with a minimum of two columns.  The column heade
 
 The output is in JSON.
 
-The script requires a Watson NLU account.
+This script requires a Watson NLU account.
 
 For full NLU documentation, including instructions for obtaining a Watson NLU account, see: *https://console.bluemix.net/docs/services/natural-language-understanding/getting-started.html#getting-started-tutorial*.
 
@@ -22,9 +22,18 @@ The script *nlcCreateClassifier.py* trains a text classifer using Watson Natural
 
 The input file should be in CSV format, with two columns: the text, and its assigned class.  For an example, see: *https://watson-developer-cloud.github.io/doc-tutorial-downloads/natural-language-classifier/weather_data_train.csv* . 
 
-#The script requires a Watson NLC account.
+This script requires a Watson NLC account.
 
 For full NLC documentation, including instructions for obtaining a Watson NLU account, see:  *https://console.bluemix.net/docs/services/natural-language-classifier/getting-started.html#natural-language-classifier*.
 
+## Checking the status of a classifier ##
+
+This script *nlcClassifierStatus.py* returns the status of a text classifer in Watson Natural Language Classifier (NLC).
+
+This script requires a Watson NLC account.
+
+It also requires the classsifer ID.   The classifier ID is assigned during the training step.
+
+For full NLC documentation, including instructions for obtaining a Watson NLU account, see:  https://console.bluemix.net/docs/services/natural-language-classifier/getting-started.html#natural-language-classifier.
 
 ## Classifying text ##

@@ -8,7 +8,7 @@ Before using these scripts, install Watson Developer Cloud: *pip install --upgra
 
 The script *nlu_concept-extraction_sample.py* extracts Concepts from a list of HTML pages using Watson Natural Language Understanding (NLU).
 
-The input file should be in CSV with a minimum of two columns.  The column headers should include URL (for the URL of the page) and Keyword (for the search keyword that is associated with a URL).  Note that header names are case-sensitive.
+The input file should be in CSV with a minimum of three columns.  The column headers should include the names URL (for the URL of the page), Keyword (for the search keyword that is associated with a URL), and Query volume (for the number of queries). 
 
 The output is in JSON.
 

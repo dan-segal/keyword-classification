@@ -1,6 +1,6 @@
 # Keyword classification
 
-This repository contains sample Python scripts for performing concept identification and text classification using Watson APIs.  These scripts are referenced in the prenstation *Applying NLP & Machine Learning to Keyword Analysis*, delivered Nov. 7, 2018 at Text Analytics Forum.
+This repository contains sample Python scripts for performing concept identification and text classification using Watson APIs.  These scripts are referenced in the prenstation [*Applying NLP & Machine Learning to Keyword Analysis*](http://conferences.infotoday.com/documents/315/1430_Segal.pdf), delivered Nov. 7, 2018 at Text Analytics Forum.
 
 Before using these scripts, install Watson Developer Cloud: *pip install --upgrade watson-developer-cloud*
 
